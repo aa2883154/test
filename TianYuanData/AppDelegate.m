@@ -17,10 +17,9 @@
 @implementation AppDelegate
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-   
     
     [self.window makeKeyAndVisible];
-
+    
     //网络指示器
 //     application.networkActivityIndicatorVisible = YES;
     //1.获取当前的版本号
