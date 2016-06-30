@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TrackCollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="84" height="84"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="84" height="84"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dDL-W1-8SH">
+                        <rect key="frame" x="0.0" y="0.0" width="84" height="71"/>
+                        <color key="backgroundColor" red="0.44439655169999998" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MIT-Mt-k7D">
+                        <rect key="frame" x="20" y="74" width="45" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="45" id="J1X-LV-Tpp"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <state key="normal" title="魔兽世界" backgroundImage="trace-bg">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="J1X-LV-Tpp"/>
+                            </mask>
+                        </variation>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="dDL-W1-8SH" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="1sR-aA-plW"/>
+                <constraint firstAttribute="bottom" secondItem="MIT-Mt-k7D" secondAttribute="bottom" id="E8d-ct-pan"/>
+                <constraint firstItem="MIT-Mt-k7D" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="9" id="F6C-aG-Apf"/>
+                <constraint firstItem="MIT-Mt-k7D" firstAttribute="centerX" secondItem="dDL-W1-8SH" secondAttribute="centerX" id="Lqb-GU-vgP"/>
+                <constraint firstAttribute="bottom" secondItem="MIT-Mt-k7D" secondAttribute="bottom" id="QUm-pD-r6C"/>
+                <constraint firstItem="MIT-Mt-k7D" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="XJj-ZZ-5JH"/>
+                <constraint firstAttribute="bottom" secondItem="dDL-W1-8SH" secondAttribute="bottom" constant="13" id="XMH-Hc-K7C"/>
+                <constraint firstItem="dDL-W1-8SH" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="c6g-yQ-ubY"/>
+                <constraint firstItem="MIT-Mt-k7D" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="74" id="ms1-xt-xEX"/>
+                <constraint firstItem="MIT-Mt-k7D" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="naG-be-8OW"/>
+            </constraints>
+            <size key="customSize" width="70" height="89"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="E8d-ct-pan"/>
+                    <exclude reference="F6C-aG-Apf"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="iconImage" destination="dDL-W1-8SH" id="OZg-OZ-goQ"/>
+            </connections>
+            <point key="canvasLocation" x="371" y="559.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="trace-bg" width="90" height="46"/>
+    </resources>
+</document>

@@ -1,0 +1,31 @@
+//
+//  TYTool.pch
+//  TianYuanData
+//
+//  Created by 天元数科 on 16/5/25.
+//  Copyright © 2016年 天元数科. All rights reserved.
+//
+
+#ifndef TYTool_pch
+#define TYTool_pch
+
+
+#define SCREEN_WIDTH            [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT           [UIScreen mainScreen].bounds.size.height
+#define BLUE_Color              RGB(103, 194, 184)
+#define LINE_GRAY               RGB(212, 212, 212)
+#define Yellow_Color            RGB(254,192,15)
+#define Black_Color             RGB(102, 102, 102)
+#define Label_Color             RGB(153,153,153)
+#define Gray_Color              RGB(244,245,246)
+#define White_Color             RGB(255,255,255)
+#define RGBA(r, g, b, a)        [UIColor colorWithRed:r/255.f green:g/255.f blue:b/255.f alpha:a]
+#define RGB(r, g, b)            RGBA(r, g, b, 1.f)
+#define MAIN_BASE_COLOR         RGB(0, 89, 187)
+
+#import "Masonry.h"
+#import "TYNetworkTool.h"
+#import "UIView+Extension.h"
+#import "MBProgressHUD.h"
+
+#endif 

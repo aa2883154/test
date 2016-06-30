@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "86ff4b0d-e615-4f02-b951-24ef0c9101f2++6211",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "86ff4b0d-e615-4f02-b951-24ef0c9101f2++6211" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "86ff4b0d-e615-4f02-b951-24ef0c9101f2++6211" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3D02DA99-3844-4EEA-9FF4-D08863301D0D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "86ff4b0d-e615-4f02-b951-24ef0c9101f2++6211" : "ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TianYuanData",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "trunk\/TianYuanData\/TianYuanData.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/20.1.20.200\/tianyuan",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "86ff4b0d-e615-4f02-b951-24ef0c9101f2++6211"
+    }
+  ]
+}
